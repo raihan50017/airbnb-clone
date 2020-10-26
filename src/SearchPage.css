@@ -1,0 +1,23 @@
+.searchPage_info{
+    padding: 20px;
+}
+.searchPage_info>p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.searchPage_info>h1{
+    margin-bottom: 30px;
+}
+.searchPage_info>button{
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+}
+.searchResult_price>p{
+    text-align: right;
+}
+.searchResult_price{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}

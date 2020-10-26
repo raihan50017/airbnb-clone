@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    align-items: center;
+}
+.header_icon{
+    object-fit: contain;
+    height: 50px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.header_center{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+.header_center>input{
+    border: none;
+    padding: 10px;
+    outline-width: 0;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}
